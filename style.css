@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(7, 7, 58);
+
+    
+
+}
+
+.container{
+    margin: 40px;
+    padding: 50px;
+    
+    background-image: url(images/pattern-bg.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 650px;
+    
+}
+.text1{
+    float: left;
+    padding: 10px;
+    width: 40%;
+    
+    margin-top: 180px;
+    margin-left: 160px;
+    font-size: 30px;
+    width: 630px;
+    height: 330px;
+    position: absolute;
+}
+.image1{
+    
+    margin-left: 700px;
+}
+.title1{
+    position: absolute;
+    bottom:70px;
+    font-size: 16px;
+    
+}
+
+/*
+.text2{
+    float: left;
+    padding: 10px;
+    width: 40%;
+    
+    margin-top: 180px;
+    margin-left: 160px;
+    font-size: 30px;
+    width: 630px;
+    height: 330px;
+    position: absolute;
+}
+.image2{
+    
+    margin-left: 700px;
+}
+.title2{
+    position: absolute;
+    bottom:70px;
+    font-size: 16px;
+    
+}
+
+
+
+*/
+
+.name{
+    color: rgb(172, 168, 168);
+}
+
+.btns{
+    width: 92px;
+    height: 48px;
+    position: relative;
+    margin-top: -20px;
+    background-color: white;
+    margin-left: 820px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(145, 92, 182, .4);
+    
+
+
+    
+   
+
+}
+.fwdbtn{
+    float: left;
+    padding: 16px;
+    cursor: pointer;
+    opacity: 1.0;
+}
+.fwdbtn:hover{
+    
+    opacity: 0.7;
+}
+.bwdbtn{
+    float: right;
+    padding: 16px;
+    cursor: pointer;
+    opacity: 1.0;
+}
+.bwdbtn:hover{
+    opacity: 0.7;
+}
+
+.curve{
+    top: 550px;
+    position: absolute;
+    
+}
+
+
+
