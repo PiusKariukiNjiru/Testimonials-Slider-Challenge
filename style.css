@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    margin: 40px;
+    margin: 0;
    
     padding: 50px;
     width: 100%;
@@ -18,7 +18,7 @@ body{
     background-image: url(images/pattern-bg.svg);
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: 650px;
+    background-position: 550px;
     
 }
 .text1{
@@ -26,8 +26,8 @@ body{
     padding: 10px;
     width: 40%;
     
-    margin-top: 180px;
-    margin-left: 100px;
+    margin-top: 150px;
+    margin-left: 80px;
     font-size: 30px;
     width: 50%;
     height: 330px;
@@ -123,12 +123,18 @@ body{
     .image1 {
         width: 400px;
         width: 100%;
-        height: auto;
-        display: block;
+        
+        
+    
           }
 
-    
+    .text1{
+        margin-left: 0;
     }
+}
+
+
+
 
 
 
