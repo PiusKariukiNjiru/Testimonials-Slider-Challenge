@@ -1,9 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: rgb(7, 7, 58);
+    box-sizing: border-box;
 
     
 
@@ -18,7 +19,10 @@ body{
     background-image: url(images/pattern-bg.svg);
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: 550px;
+    background-position-x: right;
+   
+    
+    
     
 }
 .text1{
@@ -33,13 +37,21 @@ body{
     height: 330px;
     position: absolute;
 }
+
 .image1{
     
     margin-left: 600px;
     max-width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+    
    
 }
+
 .title1{
     position: relative;
     bottom:0px;
@@ -47,33 +59,40 @@ body{
     
 }
 
-/*
+
 .text2{
     float: left;
     padding: 10px;
     width: 40%;
     
-    margin-top: 180px;
-    margin-left: 160px;
+    margin-top: 150px;
+    margin-left: 80px;
     font-size: 30px;
-    width: 630px;
+    width: 50%;
     height: 330px;
     position: absolute;
 }
+
 .image2{
     
-    margin-left: 700px;
+    margin-left: 600px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+    
+   
 }
+
 .title2{
-    position: absolute;
-    bottom:70px;
+    position: relative;
+    bottom:0px;
     font-size: 16px;
     
 }
-
-
-
-*/
 
 .name{
     color: rgb(172, 168, 168);
@@ -85,16 +104,18 @@ body{
     position: relative;
     margin-top: -20px;
     background-color: white;
-    margin-left: 820px;
+    margin-left: 70%;
+    
     border-radius: 20px;
     box-shadow: 0 15px 25px rgba(145, 92, 182, .4);
     
-
-
+    display: flex;
     
-   
+    
 
 }
+
+
 .fwdbtn{
     float: left;
     padding: 16px;
@@ -121,8 +142,18 @@ body{
 
 @media screen and (max-width: 900px){
     .image1 {
-        width: 400px;
-        width: 100%;
+        width: 300px;
+        width: auto;
+        margin: 35rem 0 0 0;
+
+        background-image: url(images/pattern-bg.svg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-size: 100%;
+        
+        
+        
         
         
     
@@ -130,6 +161,29 @@ body{
 
     .text1{
         margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 50px;
+        
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 20px;
+            
+    }
+    .btns{
+        
+        
+        
+        
+        margin-right: 250px;
     }
 }
 
